@@ -7,6 +7,14 @@ struct ContentView: View {
             
             
             
+        VStack {
+            NavigationView{
+                       NavigationLink("Go Take Notes"){
+                           NoteTakingView()
+                       
+                       }
+                   
+                   }
         }
         .toggleStyle(.switch)
     }
