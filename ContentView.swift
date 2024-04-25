@@ -4,7 +4,13 @@ struct ContentView: View {
     var body: some View {
         Text("StudyMaster")
         Text("Choose Your Option")
-            NavigationView{
+        Text("Study Master")
+        Button("Change Background Color"){
+            
+            
+            
+        VStack {
+        Text("StudyMaster")
                 NavigationLink("Go Take Notes"){
                     NoteTakingView()
                     
@@ -22,3 +28,15 @@ struct ContentView: View {
           
         }
 
+                       NavigationLink("Go Take Notes"){
+                           NoteTakingView()
+                       
+                       }
+                   
+                   }
+        }
+        .toggleStyle(.switch)
+    }
+}
+    }
+}
