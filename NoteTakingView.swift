@@ -13,9 +13,13 @@ struct NoteTakingView: View {
     @State var Class : String = ""
     @State var Notes : String = ""
     var body: some View {
-       Text("HI")
-        TextField("Enter Class", text: $Class)
-        TextField("Write Notes", text: $Notes)
+        HStack{
+            TextField("Enter Class", text: $Class)
+            TextField("Write Notes", text: $Notes)
+        }
+        Button("Add To Notes!"){
+            
+        }
     }
 }
 

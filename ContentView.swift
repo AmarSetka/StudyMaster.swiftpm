@@ -2,20 +2,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello")
-        Text("Hi")
-        Button("Change Background Color"){
-            
-            
-            
-        VStack {
+        Text("StudyMaster")
+        Text("Choose Your Option")
             NavigationView{
-                       NavigationLink("Go Take Notes"){
-                           NoteTakingView()
-                       
-                       }
-                   
-                   }
+                NavigationLink("Go Take Notes"){
+                    NoteTakingView()
+                    
+                }
+            }
+            .foregroundColor(.black)
+        NavigationView{
+            NavigationLink("Go Take FlashCards"){
+                FlashcardView()
+                
+            }
         }
-    }
-}
+            .foregroundColor(.black)
+            }
+          
+        }
+

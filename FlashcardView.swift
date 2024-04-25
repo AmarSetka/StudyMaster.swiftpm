@@ -10,7 +10,12 @@ import Foundation
 import SwiftUI
 
 struct FlashcardView: View {
+    @State var Flashcards : String = ""
+    @State var Answer : String = ""
     var body: some View {
-        Text("HI")
+        HStack{
+            TextField("Enter your Flashcards", text: $Flashcards)
+            TextField("Enter the Answer", text: $Answer)
+        }
     }
 }
