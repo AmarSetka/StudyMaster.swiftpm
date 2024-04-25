@@ -15,7 +15,13 @@ struct FlashcardView: View {
     var body: some View {
         HStack{
             TextField("Enter your Flashcards", text: $Flashcards)
+                .textFieldStyle(.roundedBorder)
+                .padding()
             TextField("Enter the Answer", text: $Answer)
+                .textFieldStyle(.roundedBorder)
+                .padding()
+        }
+        Button("Add to Flashcards"){
+        }
         }
     }
-}

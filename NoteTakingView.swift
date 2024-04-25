@@ -15,7 +15,11 @@ struct NoteTakingView: View {
     var body: some View {
         HStack{
             TextField("Enter Class", text: $Class)
+                .textFieldStyle(.roundedBorder)
+                .padding()
             TextField("Write Notes", text: $Notes)
+                .textFieldStyle(.roundedBorder)
+                .padding()
         }
         Button("Add To Notes!"){
             
