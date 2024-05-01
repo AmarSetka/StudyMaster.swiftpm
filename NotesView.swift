@@ -14,7 +14,7 @@ struct ClassNote: Identifiable {
     var notes: String
 }
 
-struct ContentView: View {
+struct NotesView: View {
     @State var className = ""
     @State var notes = ""
     @State var classNotes: [ClassNote] = []
@@ -73,6 +73,7 @@ struct ClassNotesListView: View {
             }
         }
         .navigationTitle("Class Notes List")
+
 
         Text("")
             .navigationBarTitle("Notes")
