@@ -1,11 +1,5 @@
 import SwiftUI
 
-struct Flashcard: Identifiable {
-    let id = UUID()
-    var term: String
-    var definition: String
-}
-
 struct FlashcardsView: View {
     @State var termInput = ""
     @State var definitionInput = ""

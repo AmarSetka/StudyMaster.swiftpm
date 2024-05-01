@@ -8,12 +8,6 @@
 import Foundation
 import SwiftUI
 
-struct ClassNote: Identifiable {
-    var id = UUID()
-    var className: String
-    var notes: String
-}
-
 struct NotesView: View {
     @State var className = ""
     @State var notes = ""
@@ -58,24 +52,5 @@ struct NotesView: View {
         className = ""
         notes = ""
         showList = true
-    }
-}
-
-struct ClassNotesListView: View {
-    var classNotes: [ClassNote]
-    
-    var body: some View {
-        List(classNotes) { note in
-            VStack(alignment: .leading) {
-                Text("Class: \(note.className)")
-                Text("Notes: \(note.notes)")
-                    .foregroundColor(.secondary)
-            }
-        }
-        .navigationTitle("Class Notes List")
-
-
-        Text("")
-            .navigationBarTitle("Notes")
     }
 }

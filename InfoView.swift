@@ -10,7 +10,8 @@ import SwiftUI
 
 struct InfoView: View {
     var body: some View {
-        Text("")
+        Text("Creators: Amar, Yaslam, and Alek")
+            .font(.title)
             .navigationBarTitle("Info")
     }
 }
