@@ -11,6 +11,6 @@ import SwiftUI
 struct InfoView: View {
     var body: some View {
         Text("")
-            .navigationBarTitle("Info About Collaborators")
+            .navigationBarTitle("Info")
     }
 }
