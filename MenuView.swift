@@ -13,21 +13,21 @@ struct MenuView: View {
         NavigationView {
             VStack(spacing: 20) {
                 NavigationLink(destination: FlashcardsView()) {
-                    Text("Flashcards")
+                    Text("Notes")
                         .font(.title)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.black)
                 }
                 
                 NavigationLink(destination: NotesView()) {
-                    Text("Notes")
+                    Text("Homework")
                         .font(.title)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.black)
                 }
                 
                 NavigationLink(destination: InfoView()) {
                     Text("Info About Collaborators")
                         .font(.title)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.black)
                 }
             }
             .navigationBarTitle("Menu")

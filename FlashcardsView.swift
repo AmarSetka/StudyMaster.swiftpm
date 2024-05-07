@@ -18,7 +18,7 @@ struct FlashcardsView: View {
                     .onDelete(perform: deleteFlashcard)
                 }
                 .listStyle(PlainListStyle())
-                .navigationTitle("Flashcards")
+                .navigationTitle("Notes")
 
                 if isAddingCard {
                     VStack {
@@ -48,8 +48,8 @@ struct FlashcardsView: View {
                     Image(systemName: "plus")
                         .padding()
                 }
-                .foregroundColor(.blue)
-                .background(Color.white)
+                .foregroundColor(.white)
+                .background(Color.black)
                 .clipShape(Circle())
                 .padding(.bottom)
             }

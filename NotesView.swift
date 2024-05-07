@@ -30,7 +30,7 @@ struct NotesView: View {
                 }) {
                     Text("Enter")
                         .padding()
-                        .background(Color.blue)
+                        .background(Color.black)
                         .foregroundColor(.white)
                         .cornerRadius(8)
                 }
@@ -42,7 +42,7 @@ struct NotesView: View {
                 
                 Spacer()
             }
-            .navigationTitle("Class Notes")
+            .navigationTitle("Homework")
         }
     }
     
