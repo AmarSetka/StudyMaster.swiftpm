@@ -12,6 +12,8 @@ struct InfoView: View {
     var body: some View {
         Text("Creators: Amar, Yaslam, and Alek")
             .font(.title)
+        Text("Grade: Freshman, Senior, Fresman")
+            .font(.title)
             .navigationBarTitle("Info")
     }
 }
