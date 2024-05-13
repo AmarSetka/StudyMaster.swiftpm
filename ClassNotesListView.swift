@@ -16,7 +16,9 @@ struct ClassNotesListView: View {
         List(classNotes) { note in
             VStack(alignment: .leading) {
                 Text("Class: \(note.className)")
+                    .font(.largeTitle)
                 Text("Notes: \(note.notes)")
+                    
                     .foregroundColor(.secondary)
             }
         }

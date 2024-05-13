@@ -17,11 +17,10 @@ let package = Package(
             name: "StudyMaster",
             targets: ["AppModule"],
             bundleIdentifier: "org.jhhs.627368.StudyMaster",
-            teamIdentifier: "",
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .box),
-            accentColor: .presetColor(.green),
+            appIcon: .placeholder(icon: .openBook),
+            accentColor: .presetColor(.blue),
             supportedDeviceFamilies: [
                 .pad,
                 .phone
