@@ -25,6 +25,7 @@ struct FlashcardsView: View {
             TextField("Term", text: $termInput)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                             .padding()
+                            
 
             TextField("Definition", text: $definitionInput)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
