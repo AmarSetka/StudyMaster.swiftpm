@@ -17,7 +17,7 @@ let package = Package(
             name: "StudyMaster",
             targets: ["AppModule"],
             bundleIdentifier: "org.jhhs.627368.StudyMaster",
-            teamIdentifier: "",
+            teamIdentifier: "MC688743ZX",
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .placeholder(icon: .box),

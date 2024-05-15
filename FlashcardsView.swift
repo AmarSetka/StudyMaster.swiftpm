@@ -7,7 +7,7 @@ struct FlashcardsView: View {
     @State var isAddingCard = false
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 List {
                     ForEach(flashcards) { card in

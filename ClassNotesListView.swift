@@ -13,6 +13,7 @@ struct ClassNotesListView: View {
     var classNotes: [ClassNote]
     
     var body: some View {
+        
         List(classNotes) { note in
             VStack(alignment: .leading) {
                 Text("Class: \(note.className)")

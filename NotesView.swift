@@ -15,7 +15,7 @@ struct NotesView: View {
     @State var showList = false
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 TextField("Enter Class", text: $className)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
