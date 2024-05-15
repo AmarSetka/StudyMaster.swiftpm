@@ -2,7 +2,7 @@
 //  NotesView.swift
 //  StudyMaster
 //
-//  Created by Yaslam. Ahmed on 5/1/24.
+//  Created by Alekzandar. Manev on 5/1/24.
 //
 
 import Foundation
@@ -35,9 +35,12 @@ struct NotesView: View {
                         .cornerRadius(8)
                 }
                 .padding()
-                
-                if showList {
-                    ClassNotesListView(classNotes: classNotes)
+                HStack{
+                    
+                    
+                    if showList {
+                        ClassNotesListView(classNotes: classNotes)
+                    }
                 }
                 
                 Spacer()

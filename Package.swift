@@ -20,8 +20,8 @@ let package = Package(
             teamIdentifier: "MC688743ZX",
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .box),
-            accentColor: .presetColor(.green),
+            appIcon: .placeholder(icon: .openBook),
+            accentColor: .presetColor(.blue),
             supportedDeviceFamilies: [
                 .pad,
                 .phone
