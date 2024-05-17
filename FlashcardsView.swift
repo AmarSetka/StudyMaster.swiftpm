@@ -25,11 +25,13 @@ struct FlashcardsView: View {
             TextField("Term", text: $termInput)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                             .padding()
+                            .font(.title)
                             
 
             TextField("Definition", text: $definitionInput)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                             .padding()
+                            .font(.title)
 
             Button("Add Flashcard") {
             let newFlashcard = Flashcard(term: termInput, definition: definitionInput)

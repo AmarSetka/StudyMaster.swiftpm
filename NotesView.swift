@@ -20,10 +20,12 @@ struct NotesView: View {
                 TextField("Enter Class", text: $className)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
+                    .font(.title)
                 
                 TextField("Write Notes", text: $notes)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
+                    .font(.title)
                 
                 Button(action: {
                     addClassNote()
