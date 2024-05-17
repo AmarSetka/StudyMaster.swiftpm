@@ -10,6 +10,9 @@ import SwiftUI
 
 struct MenuView: View {
     var body: some View {
+        Text("StudyMaster")
+            .font(.largeTitle)
+            .foregroundStyle(.blue)
         NavigationStack {
             VStack(spacing: 20) {
                 NavigationLink(destination: FlashcardsView()) {
