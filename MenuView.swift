@@ -13,6 +13,7 @@ struct MenuView: View {
         Text("StudyMaster")
             .font(.largeTitle)
             .foregroundStyle(.blue)
+        Image("Graduate")
         NavigationStack {
             VStack(spacing: 20) {
                 NavigationLink(destination: FlashcardsView()) {
