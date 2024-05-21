@@ -12,24 +12,24 @@ struct MenuView: View {
     var body: some View {
         Text("StudyMaster")
             .font(.largeTitle)
-            .foregroundStyle(.blue)
+            .foregroundStyle(.black)
         NavigationStack {
             VStack(spacing: 20) {
                 NavigationLink(destination: FlashcardsView()) {
                     Text("Notes")
-                        .font(.title)
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                 }
                 
                 NavigationLink(destination: NotesView()) {
                     Text("Homework")
-                        .font(.title)
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                 }
                 
                 NavigationLink(destination: InfoView()) {
                     Text("Info About Collaborators")
-                        .font(.title)
+                        .font(.largeTitle)
                         .foregroundColor(.black)
                 }
             }
