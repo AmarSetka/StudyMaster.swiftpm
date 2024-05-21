@@ -35,6 +35,7 @@ struct NotesView: View {
                         .background(Color.black)
                         .foregroundColor(.white)
                         .cornerRadius(8)
+                        .font(.title)
                 }
                 .padding()
                 HStack{
