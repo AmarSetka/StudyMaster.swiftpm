@@ -14,7 +14,6 @@ struct MenuView: View {
             .font(.largeTitle)
             .foregroundStyle(.black)
             .foregroundStyle(.blue)
-        Image("Graduate")
         NavigationStack {
             VStack(spacing: 20) {
                 NavigationLink(destination: FlashcardsView()) {
@@ -37,6 +36,9 @@ struct MenuView: View {
             }
             .navigationBarTitle("Menu")
         }
+        Image("Graduate")
+            .resizable()
+            .frame(width: 200, height: 120)
     }
 }
 
