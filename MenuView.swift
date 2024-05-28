@@ -35,10 +35,11 @@ struct MenuView: View {
                 }
             }
             .navigationBarTitle("Menu")
+            Image("Graduate")
+                .resizable()
+                .frame(width: 700, height: 300)
         }
-        Image("Graduate")
-            .resizable()
-            .frame(width: 200, height: 120)
+        
     }
 }
 

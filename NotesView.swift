@@ -37,6 +37,9 @@ struct NotesView: View {
                         .cornerRadius(8)
                         .font(.title)
                 }
+                Image("homework")
+                    .resizable()
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
                 .padding()
                 HStack{
                     
