@@ -41,6 +41,7 @@ struct FlashcardsView: View {
                             isAddingCard.toggle()
                         }
                         .padding()
+                        .foregroundColor(.blue)
                     }
                     .padding()
                 }
