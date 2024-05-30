@@ -57,6 +57,9 @@ struct FlashcardsView: View {
                 .background(Color.black)
                 .clipShape(Circle())
                 .padding(.bottom)
+                Image("Study")
+                    .resizable()
+                    .frame(width: 500,height: 300)
             }
         }
     }

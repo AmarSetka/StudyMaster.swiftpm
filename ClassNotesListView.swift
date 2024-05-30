@@ -22,6 +22,7 @@ struct ClassNotesListView: View {
                 Text("Notes: \(note.notes)")
                     
                     .foregroundColor(.secondary)
+               
             }
         }
         .navigationTitle("Class Notes List")
