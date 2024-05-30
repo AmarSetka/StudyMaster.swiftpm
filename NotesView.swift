@@ -33,13 +33,13 @@ struct NotesView: View {
                     Text("Enter")
                         .padding()
                         .background(Color.black)
-                        .foregroundColor(.white)
+                            .foregroundColor(.white)
                         .cornerRadius(8)
                         .font(.title)
                 }
                 Image("homework")
                     .resizable()
-                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+                    .frame(width: 500, height: 300)
                 .padding()
                 HStack{
                     
