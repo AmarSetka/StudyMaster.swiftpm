@@ -14,6 +14,8 @@ struct MenuView: View {
             .font(.largeTitle)
             .foregroundStyle(.blue)
         
+        Image("assignemnts")
+        Image(systemName: "arrowshape.down.fill")
         NavigationStack {
             VStack(spacing: 20) {
                 NavigationLink(destination: FlashcardsView()) {
@@ -22,6 +24,8 @@ struct MenuView: View {
                         .foregroundColor(.black)
                 }
                 
+                Image("Study")
+                Image(systemName: "arrowshape.down.fill")
                 NavigationLink(destination: NotesView()) {
                     Text("Homework")
                         .font(.largeTitle)
